@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-# Import the necessary functions from calculator_1.py
-from calculator_1 import add, subtract, multiply, divide
+
+if __name__ == "__main__":
+    """Print the sum, difference, multiple and quotient of 10 and 5."""
+    from calculator_1 import add, sub, mul, div
 
 # Define variables a and b
 a = 10
